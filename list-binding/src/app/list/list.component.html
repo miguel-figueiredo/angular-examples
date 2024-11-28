@@ -1,0 +1,8 @@
+<ul>
+@for (item of items; track item.id) {
+  <li>
+    <app-item [item]="item"></app-item>
+    <button (click)="editItem(item)">Edit</button>
+  </li>
+}
+</ul>
