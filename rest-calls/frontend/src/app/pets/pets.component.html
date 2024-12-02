@@ -1,0 +1,7 @@
+<input [(ngModel)]="pet">
+
+<button (click)="addItem()">Add</button>
+
+@for (pet of pets; track pet.id) {
+  <div>{{ pet.id }} - {{ pet.name }}</div>
+}

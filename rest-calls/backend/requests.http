@@ -1,0 +1,15 @@
+GET http://localhost:8080/api/pets
+
+###
+
+POST http://localhost:8080/api/pets
+Content-Type: application/json
+
+{
+  "id": "9E5788B4-0B8C-4D59-89F1-4EEB2994FA96",
+  "name": "Olivia"
+}
+
+###
+
+DELETE http://localhost:8080/api/pets/9E5788B4-0B8C-4D59-89F1-4EEB2994FA96
